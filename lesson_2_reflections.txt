@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 it create metafile for git in repository. For git work
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Stating area contains files which can be commited. It offers ability to choice: which files we want to add to repository.
