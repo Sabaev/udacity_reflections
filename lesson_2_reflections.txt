@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+it create metafile for git in repository. For git work
