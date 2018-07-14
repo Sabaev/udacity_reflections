@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Мы можем выявить, что послужило причиной бага, т.е. после каких изменений появились данные баги
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	Возможно это позволит находить места, где нужно изменить подход в архитектуре
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Плюсы в том что мы можем контролировать когда сохранить изменения, и можем их логически отделять. Минусы в том что мы можем допустить ошибку и забыть сохранить. И минус в том что логическое отделение коммитов ложиться на человека, что может приводить к недопониманию чужой логики(либо просто новичок делает коммиты по всем изменениям). 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Это позволяет более удобно отслеживать взаимосвязанные файлы, чтобы изменять взаимозависимую информацию при изименении в другой.  
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log - просмотр истории изменений с коментраиями (снизу вверх[от старых к новым коммитам, самый последний на верху])
+	git diff - просмотр разницы: старый коммит новый коммит --- покажет какие изменения в новом коммите
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	С помощью git checkout можно откатиться на старую версию и проверить, пирводила ли она к багу. Если нет, то сверить с помощью diff какие изменения к этому привели.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Git HUB and clion 
