@@ -21,3 +21,8 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 -Their commits' history add together and are sorted by timestamp. Some information deleted(if in root was and in one of branches it deleted) and add if new code fragments.
 -Graph show inheritens and we can unreacheble commits if they are.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
++It safe our time
++If some conflict it swich to manual merging
+-I think possible many situation when apears some bugs: sam)foo(&x) bob)bar(&x)  
